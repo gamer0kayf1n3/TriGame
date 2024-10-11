@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {  
+    display: flex;
+    justify-content: center;
+    margin: 0; padding: 0;
+}
+header {
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+header #right {
+    margin-left: auto;
+}
+
+header #left #logo {
+    height: 75px;
+}
