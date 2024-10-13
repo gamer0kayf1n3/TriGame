@@ -14,4 +14,3 @@ function convert(input) {
         output.appendChild(document.createElement('pre')).appendChild(document.createTextNode(err.message)); 
     });
 }
-

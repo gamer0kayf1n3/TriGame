@@ -225,7 +225,6 @@ function changeFromBlack(el, colorStr) {
     let solver = new Solver(color);
     do result = solver.solve()
     while (result.loss >= 0.5)
-    console.log(result)
     el.style = result.filter
     
 }
