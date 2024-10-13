@@ -18,23 +18,18 @@ window.onload = function() {
 main.addEventListener('click', keepFocus);
 
 function rad_input_process(input) {
-    if (!input.includes("/")) return input
     input = input.replace("p", "\\pi")
+    if (!input.includes("/")) return input
 
     var [a, ...b] = input.split("/")
-    console.log(a)
-    console.log(b.join("/"))
     
     input = `\\frac {${a}} {${b}}`
+    console.log(input)
     return input
 }
 var answer = ""
 input.addEventListener("keydown", (e) => {
     if (current_type == "rad") {
-        if (!(/[0-9p/]/.test(e.key)) && e.key !== "Backspace") {e.preventDefault(); return}
+        if (!(/[-0-9p/]/.test(e.key)) && e.key !== "Backspace") {e.preventDefault(); return}
     }
-})
-
-input.addEventListener("input", () => {
-    console.log(rad_input_process(input.value))
 })

@@ -1,0 +1,4 @@
+// deg + rad gamemodes
+RANDOM_MIN = -360
+RANDOM_MAX = 360
+RANDOM_PRECISION = 30

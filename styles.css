@@ -33,7 +33,12 @@ body {
     background-color: #001131;
 }
 
-#formula .MJX-TEX {
+#formula,#response .MJX-TEX {
     font-size: 3em;
 }
-
+#in {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 0;
+    height: 0;
+}

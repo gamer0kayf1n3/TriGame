@@ -16,7 +16,7 @@ function deg2rad(deg) {
     fac = gcd(deg, 180)
     var top = Math.floor(deg/fac)
     var bottom = Math.floor(180/fac)
-    return `\\frac{${top}\\pi}{${bottom}}`
+    return `\\frac{${top}\\pi}{${bottom}}=`
 }
 function randomDeg(neg_range, pos_range, precision=1) {
     return Math.round(((pos_range - neg_range + 1) * Math.random() + neg_range)/precision)*precision
