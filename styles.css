@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
 * {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Lexend Deca", Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #d3d3ff;
 }
 body {  
     display: flex;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin: 0; padding: 0;
 }
 header {
@@ -20,4 +22,8 @@ header #right {
 
 header #left #logo {
     height: 75px;
+}
+
+body {
+    background-color: #001131;
 }
