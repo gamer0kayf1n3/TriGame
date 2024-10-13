@@ -1,5 +1,5 @@
-function convert(input) {       
-    var output = document.getElementById('output');     
+function convert(el, input) {       
+    var output = document.getElementById(el);     
     output.innerHTML = '';
 
     MathJax.texReset();
